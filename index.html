@@ -1,0 +1,74 @@
+<html>
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <!-- Required Core stylesheet -->
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/css/glide.core.min.css" rel="stylesheet">
+<title>Title</title>
+    
+
+</html>
+<body style="margin: 0">
+    <div style=
+        "
+            width: 100vw; 
+            height: 100vh; 
+            display: flex; 
+            align-items: center; 
+            align-content: center; 
+            justify-content: center;
+        "
+    >
+        <div class="mdc-card" style="
+            min-width: 320px; 
+            max-width: 720px; 
+            margin: 16px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+            overflow: hidden;
+        ">
+            <div style="display: flex; flex-direction: column; padding: 16px;">
+                <h2 style="margin: 0;">
+                    azazaza
+                </h2>
+                <div style="color: grey;">
+                    azaza2
+                </div>
+            </div>
+            <div class="glide">
+                <div data-glide-el="track" class="glide__track">
+                <ul class="glide__slides" style="margin: 0">
+                    <li  class="glide__slide"><img style="width: 100%; height: 356px; object-fit: none;" src="https://cdn.pixabay.com/photo/2010/12/13/09/51/fireworks-1758_960_720.jpg"/></li>
+                    <li  class="glide__slide"><img style="width: 100%; height: 356px; object-fit: none;" src="https://cdn.pixabay.com/photo/2014/06/30/11/40/cupcakes-380178_960_720.jpg"/></li>
+                    <li class="glide__slide"><img style="width: 100%; height: 356px; object-fit: none;" src="https://cdn.pixabay.com/photo/2017/08/24/11/12/makeup-2676392_960_720.jpg"/></li>
+                </ul>
+                </div>
+            </div>
+            <div class="mdc-card__content" style="padding: 8px">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+            </div>
+            <div class="mdc-card__actions">
+                <a href="http://youtube.com" style="text-decoration: none;">
+                    <button class="mdc-button mdc-card__action mdc-card__action--button">
+                    <div class="mdc-button__ripple"></div>
+                    <span class="mdc-button__label">
+                        Action 1
+                    </span>
+                    </button>
+                </a>
+                <a href="http://youtube.com" style="text-decoration: none;">
+                    <button class="mdc-button mdc-card__action mdc-card__action--button">
+                    <div class="mdc-button__ripple"></div>
+                    <span class="mdc-button__label">
+                        Action 2
+                    </span>
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script>
+        new Glide('.glide', {
+            autoplay: 2000
+        }).mount();
+    </script>
+</body>
